@@ -1,6 +1,7 @@
 package cn.javass.TryClass;
 
 import cn.javass.service.IHelloWorldService;
+import cn.javass.service.IIntroductionService;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -17,5 +18,8 @@ public class AopTest {
         helloWorldService.sayAfterReturning();
         System.out.println("环绕通知");
         helloWorldService.sayAround("hahaha");
+        System.out.println("引入的测试");
+        IIntroductionService iIntroductionService=context.getBean("helloWorldService",IIntroductionService.class);
+        iIntroductionService.induct();
     }
 }

@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fff5b6d-93b0-4bac-b6ec-5fc61271ae75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/javass/service/IIntroductionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/javass/service/impl/IntroductionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/springAOP/Bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/springAOP/Bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/springAOP/cn/javass/TryClass/AopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/springAOP/cn/javass/TryClass/AopTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/springAOP/cn/javass/aop/HelloWorldAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/springAOP/cn/javass/aop/HelloWorldAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/springAOP/cn/javass/service/IHelloWorldService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/springAOP/cn/javass/service/IHelloWorldService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/springAOP/cn/javass/service/impl/HelloWorldService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/springAOP/cn/javass/service/impl/HelloWorldService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/springAOP/cn/javass/aop/HelloWorldAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/springAOP/cn/javass/service/impl/HelloWorldService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bean.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/javass/TryClass/AopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/javass/TryClass/AopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/javass/aop/HelloWorldAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/javass/aop/HelloWorldAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/javass/service/IHelloWorldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/javass/service/IHelloWorldService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/javass/service/impl/HelloWorldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/javass/service/impl/HelloWorldService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,14 +64,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="771" />
-          <entry key="xml" value="281" />
+          <entry key="java" value="884" />
+          <entry key="xml" value="383" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="771" />
-          <entry key="XML" value="281" />
+          <entry key="JAVA" value="884" />
+          <entry key="XML" value="383" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -87,15 +92,15 @@
         <entry file="file://$PROJECT_DIR$/src/Bean.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+              <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/javass/aop/HelloWorldAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
+            <state relative-caret-position="566">
               <caret line="30" column="105" selection-start-line="30" selection-start-column="105" selection-end-line="30" selection-end-column="105" />
               <folding>
                 <element signature="e#168#169#0" expanded="true" />
@@ -108,10 +113,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/javass/service/IIntroductionService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/javass/service/impl/IntroductionService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+              <folding>
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/javass/service/impl/HelloWorldService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="110">
+              <caret line="5" column="60" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="60" />
               <folding>
                 <element signature="e#315#316#0" expanded="true" />
                 <element signature="e#374#375#0" expanded="true" />
@@ -131,11 +158,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/javass/TryClass/AopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+            <state relative-caret-position="462">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,10 +193,13 @@
         <option value="$PROJECT_DIR$/src/aop/HelloWorldAspect.java" />
         <option value="$PROJECT_DIR$/src/sayBefore.xml" />
         <option value="$PROJECT_DIR$/src/cn/javass/service/IHelloWorldService.java" />
-        <option value="$PROJECT_DIR$/src/Bean.xml" />
-        <option value="$PROJECT_DIR$/src/cn/javass/TryClass/AopTest.java" />
         <option value="$PROJECT_DIR$/src/cn/javass/service/impl/HelloWorldService.java" />
         <option value="$PROJECT_DIR$/src/cn/javass/aop/HelloWorldAspect.java" />
+        <option value="$PROJECT_DIR$/src/cn/javass/service/IIntroductionService.java" />
+        <option value="$PROJECT_DIR$/src/cn/javass/service/impl/IntroductiondService.java" />
+        <option value="$PROJECT_DIR$/src/cn/javass/service/impl/IntroductionService.java" />
+        <option value="$PROJECT_DIR$/src/Bean.xml" />
+        <option value="$PROJECT_DIR$/src/cn/javass/TryClass/AopTest.java" />
       </list>
     </option>
   </component>
@@ -179,7 +209,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -238,7 +268,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557756099642" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557757983284" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -327,7 +357,7 @@
       <workItem from="1557653366598" duration="2201000" />
       <workItem from="1557655635358" duration="188000" />
       <workItem from="1557735495017" duration="8863000" />
-      <workItem from="1557752503177" duration="3814000" />
+      <workItem from="1557752503177" duration="5169000" />
     </task>
     <servers />
   </component>
@@ -364,13 +394,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16515000" />
+    <option name="totallyTimeSpent" value="17870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.122068234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18550107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -380,7 +410,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35504887" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35504887" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,7 +421,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Console" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Messages" order="13" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -436,20 +466,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/javass/TryClass/AopTest.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/javass/aop/HelloWorldAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+        <state relative-caret-position="566">
+          <caret line="30" column="105" selection-start-line="30" selection-start-column="105" selection-end-line="30" selection-end-column="105" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/javass/service/IIntroductionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/javass/service/impl/IntroductionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/javass/service/impl/HelloWorldService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="110">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="60" />
           <folding>
             <element signature="e#315#316#0" expanded="true" />
             <element signature="e#374#375#0" expanded="true" />
@@ -462,19 +513,16 @@
     <entry file="file://$PROJECT_DIR$/src/Bean.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/javass/aop/HelloWorldAspect.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/javass/TryClass/AopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="30" column="105" selection-start-line="30" selection-start-column="105" selection-end-line="30" selection-end-column="105" />
+        <state relative-caret-position="462">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

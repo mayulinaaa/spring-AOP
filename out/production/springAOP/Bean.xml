@@ -36,6 +36,13 @@
 
             <!--环绕通知-->
             <aop:around method="aroundAdvice" pointcut="execution(* cn.javass..*.sayAround(..))"/>
+
+            <!--引入新的接口-->
+            <!--types-matching匹配需要引入接口的目标对象，如：匹配HelloWorldService接口的子类型，如HelloWorldService的实现，
+            implement-interface定义需要引入的接口，
+            default-impl定义引入接口的默认实现-->
+            <aop:declare-parents types-matching="cn.javass..*.IHelloWorldService+" implement-interface="cn.javass.service.IIntroductionService"
+                                 default-impl="cn.javass.service.impl.IntroductionService"/>
         </aop:aspect>
     </aop:config>
 </beans>  
