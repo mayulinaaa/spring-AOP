@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+    <!--配置目标类-->
+    <bean id="helloWorldService" class="cn.javass.service.impl.HelloWorldService"/>
+    <!--配置切面，切面实现类里面提供了前置通知和后置通知-->
+    <bean id="aspect" class="cn.javass.aop.HelloWorldAspect"/>
+    <!--在spring配置文件中，所有AOP相关定义必须放在<aop:config>标签下-->
+    <aop:config>
+        <!--切入点使用<aop:config>标签下的<aop:pointcut>配置，
+        expression属性用于定义切入点模式，下面的配置表示匹配包及子包下的任何方法执行-->
+        <aop:pointcut id="pointcut" expression="execution(* cn.javass..*.*(..))"/>
+        <!--切面使用<aop:config>标签下的<aop:aspect>标签配置，其中ref用来引用切面支持类的方法-->
+        <aop:aspect ref="aspect">
+            <!--前置通知，pointcut-ref属性用于引用切入点Bean，
+            method用来引用切面通知实现类中的方法，该方法就是通知实现，即在目标类方法执行之前调用的方法-->
+            <aop:before method="beforeAdvice" pointcut-ref="pointcut"/>
+            <aop:before pointcut="execution(* cn.javass..*.sayBefore(..)) and args(param)" method="beforeAdvice111" arg-names="param"/>
+            <!--最终通知使用<aop:after>标签来定义，切入点除了使用point-ref来引用已经存在的切入点，也可以使用pointcut属性来定义
+            method属性同样是指定通知实现，即在目标方法执行之后调用的方法-->
+            <aop:after method="afterFinallyAdvice" pointcut="execution(* cn.javass..*.*(..))"/>
+        </aop:aspect>
+    </aop:config>
+</beans>  
