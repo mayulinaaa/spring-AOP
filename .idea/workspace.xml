@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fff5b6d-93b0-4bac-b6ec-5fc61271ae75" name="Default Changelist" comment="" />
+    <list default="true" id="0fff5b6d-93b0-4bac-b6ec-5fc61271ae75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/springAOP/Bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/springAOP/Bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/springAOP/cn/javass/TryClass/AopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/springAOP/cn/javass/TryClass/AopTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/springAOP/cn/javass/aop/HelloWorldAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/springAOP/cn/javass/aop/HelloWorldAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/springAOP/cn/javass/service/IHelloWorldService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/springAOP/cn/javass/service/IHelloWorldService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/springAOP/cn/javass/service/impl/HelloWorldService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/springAOP/cn/javass/service/impl/HelloWorldService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/javass/TryClass/AopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/javass/TryClass/AopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/javass/aop/HelloWorldAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/javass/aop/HelloWorldAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/javass/service/IHelloWorldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/javass/service/IHelloWorldService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/javass/service/impl/HelloWorldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/javass/service/impl/HelloWorldService.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,30 +60,48 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1035063998">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="771" />
+          <entry key="xml" value="281" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="771" />
+          <entry key="XML" value="281" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bean.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="384">
+              <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/javass/aop/HelloWorldAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="302">
+              <caret line="30" column="105" selection-start-line="30" selection-start-column="105" selection-end-line="30" selection-end-column="105" />
               <folding>
                 <element signature="e#168#169#0" expanded="true" />
                 <element signature="e#229#230#0" expanded="true" />
                 <element signature="e#280#281#0" expanded="true" />
                 <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,11 +110,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/javass/service/impl/HelloWorldService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            <state relative-caret-position="308">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/javass/service/IHelloWorldService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="154">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -101,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/javass/TryClass/AopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+            <state>
+              <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,6 +152,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -128,12 +164,12 @@
         <option value="$PROJECT_DIR$/src/TestClass/AopTest.java" />
         <option value="$PROJECT_DIR$/src/TryClass/AopTest.java" />
         <option value="$PROJECT_DIR$/src/aop/HelloWorldAspect.java" />
-        <option value="$PROJECT_DIR$/src/cn/javass/service/IHelloWorldService.java" />
         <option value="$PROJECT_DIR$/src/sayBefore.xml" />
-        <option value="$PROJECT_DIR$/src/cn/javass/aop/HelloWorldAspect.java" />
-        <option value="$PROJECT_DIR$/src/cn/javass/service/impl/HelloWorldService.java" />
-        <option value="$PROJECT_DIR$/src/cn/javass/TryClass/AopTest.java" />
+        <option value="$PROJECT_DIR$/src/cn/javass/service/IHelloWorldService.java" />
         <option value="$PROJECT_DIR$/src/Bean.xml" />
+        <option value="$PROJECT_DIR$/src/cn/javass/TryClass/AopTest.java" />
+        <option value="$PROJECT_DIR$/src/cn/javass/service/impl/HelloWorldService.java" />
+        <option value="$PROJECT_DIR$/src/cn/javass/aop/HelloWorldAspect.java" />
       </list>
     </option>
   </component>
@@ -155,33 +191,45 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="springAOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springAOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-AOP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springAOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springAOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-AOP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springAOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="spring-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springAOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="junit" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javass" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javass" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,8 +238,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557750005460" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557756099642" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -279,19 +327,11 @@
       <workItem from="1557653366598" duration="2201000" />
       <workItem from="1557655635358" duration="188000" />
       <workItem from="1557735495017" duration="8863000" />
+      <workItem from="1557752503177" duration="3814000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AopTest_testHelloWorld - 2019.05.12 at 18h 08m 47s.xml">
-      <configuration name="AopTest.testHelloWorld" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AopTest_testHelloWorld - 2019.05.12 at 18h 09m 18s.xml">
-      <configuration name="AopTest.testHelloWorld" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AopTest_testHelloWorld_(1) - 2019.05.13 at 16h 35m 39s.xml">
-      <configuration name="AopTest.testHelloWorld (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AopTest_testHelloWorld_(1) - 2019.05.13 at 16h 37m 00s.xml">
       <configuration name="AopTest.testHelloWorld (1)" configurationId="JUnit" />
     </history-entry>
@@ -313,15 +353,24 @@
     <history-entry file="AopTest_testHelloWorld_(1) - 2019.05.13 at 19h 11m 10s.xml">
       <configuration name="AopTest.testHelloWorld (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AopTest_testHelloWorld_(1) - 2019.05.13 at 21h 24m 38s.xml">
+      <configuration name="AopTest.testHelloWorld (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopTest_testHelloWorld_(1) - 2019.05.13 at 21h 30m 41s.xml">
+      <configuration name="AopTest.testHelloWorld (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopTest_testHelloWorld_(1) - 2019.05.13 at 22h 01m 44s.xml">
+      <configuration name="AopTest.testHelloWorld (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12701000" />
+    <option name="totallyTimeSpent" value="16515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12100213" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.122068234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -331,7 +380,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3557484" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35504887" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -362,45 +411,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/service/IHelloWorldService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/impl/HelloWorldService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TryClass/AopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aop/HelloWorldAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding>
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/IHelloWorldService.java" />
+    <entry file="file://$PROJECT_DIR$/src/service/impl/HelloWorldService.java" />
+    <entry file="file://$PROJECT_DIR$/src/TryClass/AopTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/aop/HelloWorldAspect.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/requests/FilterRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -415,53 +429,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/javass/aop/HelloWorldAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/javass/service/IHelloWorldService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/javass/service/impl/HelloWorldService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding>
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/javass/TryClass/AopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        <state>
+          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/javass/service/impl/HelloWorldService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bean.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        <state relative-caret-position="384">
+          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/javass/aop/HelloWorldAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="30" column="105" selection-start-line="30" selection-start-column="105" selection-end-line="30" selection-end-column="105" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

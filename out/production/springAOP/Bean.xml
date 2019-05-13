@@ -21,10 +21,21 @@
             <!--前置通知，pointcut-ref属性用于引用切入点Bean，
             method用来引用切面通知实现类中的方法，该方法就是通知实现，即在目标类方法执行之前调用的方法-->
             <aop:before method="beforeAdvice" pointcut-ref="pointcut"/>
+
+            <!--这个是带参数的前置通知，这里的方法名不能与上面的重复，并且不需要把参数写出来，
+            使用execution切入点匹配 匹配目标方法sayBefore，且使用"args(param)"匹配目标方法只有一个参数且传入的参数要与实现方法中的参数的名字一样-->
             <aop:before pointcut="execution(* cn.javass..*.sayBefore(..)) and args(param)" method="beforeAdvice111" arg-names="param"/>
+
+            <!--这是后置最终通知，在切入点选择的方法返回时执行，不管是正常执行还是抛出异常都执行，通过<aop:aspect>标签下的<aop:after>标签声明-->
             <!--最终通知使用<aop:after>标签来定义，切入点除了使用point-ref来引用已经存在的切入点，也可以使用pointcut属性来定义
             method属性同样是指定通知实现，即在目标方法执行之后调用的方法-->
             <aop:after method="afterFinallyAdvice" pointcut="execution(* cn.javass..*.*(..))"/>
+
+            <!--后置返回通知-->
+            <aop:after-returning method="afterReturningAdvice" pointcut="execution(* cn.javass..*.sayAfterReturning(..))" arg-names="retVal" returning="retVal"/>
+
+            <!--环绕通知-->
+            <aop:around method="aroundAdvice" pointcut="execution(* cn.javass..*.sayAround(..))"/>
         </aop:aspect>
     </aop:config>
 </beans>  

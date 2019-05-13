@@ -13,5 +13,9 @@ public class AopTest {
         helloWorldService.sayHello();
         System.out.println("带参数的前置通知");
         helloWorldService.sayBefore("before");
+        System.out.println("后置返回通知");
+        helloWorldService.sayAfterReturning();
+        System.out.println("环绕通知");
+        helloWorldService.sayAround("hahaha");
     }
 }
